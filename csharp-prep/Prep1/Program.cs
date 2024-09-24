@@ -6,6 +6,6 @@ class Program
     {
         Console.WriteLine("Hello Prep1 World!");
         Console.Write("How are you");
-reply = Console.ReadLine(); 
+        reply = Console.ReadLine(); 
     }
 }
