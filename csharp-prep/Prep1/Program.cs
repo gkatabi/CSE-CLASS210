@@ -4,8 +4,8 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello Prep1 World!");
-        Console.Write("How are you");
-        reply = Console.ReadLine(); 
+        Console.WriteLine("What is your name?: ");
+        string userName = Console.ReadLine();
+        Console.WriteLine("User name is: "+ userName ); 
     }
 }
