@@ -9,6 +9,6 @@ class Program
         Console.WriteLine("What is your last name: ");
         string last name = Console.ReadLine();
         
-        Console.WriteLine("Your name is: "+ firstName + lastName); 
+        Console.WriteLine($"Your name is: " {firstName} , {lastName}); 
     }
 }
