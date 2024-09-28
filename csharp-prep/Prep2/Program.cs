@@ -10,7 +10,9 @@ class Program
           D >= 60
           F < 60*/
         Console.WriteLine("What was your percentage score?: ");
-        float percentageSccore = float.perse(percentageScore);
+        Console.Write("Enter your percentage score: ")
+        float percentageScore = float.perse(Console.readLine()); 
+        float percentageScore = float.perse(percentageScore);
         if (percentageScore >= 90)
         {
             Console.ReadLine($"You Scored",{percentageScore}F);
