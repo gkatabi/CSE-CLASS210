@@ -9,7 +9,7 @@ class Program
         string firstName =           Console.ReadLine();
         Console.Write("Enter Last Name:");
         string lastName = Console.ReadLine();
-        Console.WriteLine($"The name is : {firstName} {lastName}");
+        Console.WriteLine($"{firstName} {lastName}, \n aged: ");
 
     }
 }
