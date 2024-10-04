@@ -26,6 +26,18 @@ using System.IO;
             string book = @"C:\book.txt";
             File.AppendAll Text(book,Environment.NewLine+ "  ");
             string txtappd = File.ReadAllText(book);
+
+            string[]alines ={"First line","Second line","Third line"};
+            string docPath=Environment.GetFolderPath(Envirpnment.SpecialFolder.MyDocuments)
+            using (StreanWriter outputFile = new StreamWriter(path.Combine(docpath,"WriterLines.txt")));
+            {
+                foreach(string line in lines)
+                    outputFile.WriteLine(line);
+
+                
+            }
+
+
         }
     }
 }           
