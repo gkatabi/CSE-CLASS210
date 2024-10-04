@@ -1,0 +1,5 @@
+{
+    "dotnet.preferCSharpExtension": true,
+    "csharp.preview.improvedLaunchExperience": true,
+    "docomment.activateOnEnter": true
+}
