@@ -15,15 +15,19 @@ class Program
         int percentageScore = int.parse(Console.ReadLine()); 
         if (percentageScore >= 90)
         {
-            Console.WriteLine($"You Scored:  {percentageScore}");
+            Console.WriteLine($"You Scored:  {percentageScore}.");
             Console.WriteLine("You passed in: A");
         if (percentageScore >= 80)
+            Console.WriteLine($"You Scored:  {percentageScore}.");
             Console.WriteLine("You passed in: B")
         if (percentageScore >= 70)
+            Console.WriteLine($"You Scored:  {percentageScore}.");
             Console.WriteLine("You passed in: C");
         if (percentageScore >= 60)
+            Console.WriteLine($"You Scored:  {percentageScore}.");
             Console.WriteLine("You survived with a grade: D");
         else if (percentageScore < 60)
+            Console.WriteLine($"You Scored:  {percentageScore}.");
             Console.WriteLine("You failed and pocketed an: F");
   
         }
