@@ -17,13 +17,13 @@ class Program
         {
             Console.ReadLine($"You Scored",{percentageScore}F);
             Console.WriteLine("You passed in: A");
-        if (percentageScore >= 80);
+        if (percentageScore >= 80)
             Console.WriteLine("You passed in: B")
-        if (percentageScore >= 70);
+        if (percentageScore >= 70)
             Console.WriteLine("You passed in: C");
-        if (percentageScore >= 60);
+        if (percentageScore >= 60)
             Console.WriteLine("You survived with a grade: D");
-        if (percentageScore < 60);
+        else if (percentageScore < 60)
             Console.WriteLine("You failed and pocketed an: F");
   
         }
