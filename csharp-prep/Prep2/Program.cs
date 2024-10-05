@@ -9,7 +9,7 @@ class Program
           C >= 70
           D >= 60
           F < 60*/
-        Console.WriteLine("What was your percentage score?: ");
+        Console.WriteLine("What was your Percentage score?: ");
         Console.Write("Enter your percentage score: ");
 
         int percentageScore = int.parse(Console.ReadLine()); 
