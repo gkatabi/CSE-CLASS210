@@ -23,6 +23,14 @@ class labels
     class program
     { 
         static void main(string[]args)
+        { 
+            //Detail company label
+            packing label myobj = new packing label();
+            myobj.name = "Alma packages"
+            
+            //Detail destiny
+            shipping label myobj = new shipping label();
+        }
         
     }
 
