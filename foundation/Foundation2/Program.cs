@@ -4,8 +4,18 @@ class Program
 {
     class labels
     {
-        public class packing
-        public class shipping
+        //I will use the getters setters 
+        class packing
+        {
+            private string name;
+            public string Name
+            {
+                get {return name;}
+                set {name = value;}
+            }
+         }
+        //I will use object concepts here        
+        class shipping
         //class space for computing 
         public static void (string[]args)
         {
