@@ -1,24 +1,38 @@
 using System;
 
-class Program
+class labels
+//I will use the getters setters 
 {
-    class labels
+    class packing label
     {
-        //I will use the getters setters 
-        class packing
+        private string name;
+        public string Name
         {
-            private string name;
-            public string Name
-            {
-                get {return name;}
-                set {name = value;}
-            }
-         }
+            get {return name;}
+            set {name = value;}
+        }
+    class shipping label
+    {
+        private string destiny;
+        public string Destiny
+        {
+            get{return destiny;}
+            set{destiny= value;}
+        }
+    }
+    class program
+    { 
+        static void main(string[]args)
+        
+    }
+
+    
         //I will use object concepts here        
-        class shipping
-        //class space for computing 
-        public static void (string[]args)
-        {
+    class shipping label
+    //class space for computing 
+    {
+        ge
+
 
         static void Main(string[] args)
         {
