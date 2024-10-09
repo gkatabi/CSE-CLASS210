@@ -11,7 +11,7 @@ class labels
             get {return name;}
             set {name = value;}
         }
-    class shipping label
+    class shippingLabel
     {
         private string destiny;
         public string Destiny
@@ -25,14 +25,14 @@ class labels
         static void main(string[]args)
         { 
             //Detail company label
-            packing label myobj = new packing label();
+            packingLabel myobj = new packingLabel();
             myobj.name = "Alma packages"
             
             //Detail destiny
-            shipping label myobj = new shipping label();
+            shippingLabel myobj = new shippingLabel();
             myobj.destiny = "42 Orlando Crescent USA"
-            Console.WriteLine(myobj.name);
-            Console.WriteLine(myobj.destiny;
+            Console.WriteLine(myobj.Name);
+            Console.WriteLine(myobj.Destiny);
         }
         
     }
