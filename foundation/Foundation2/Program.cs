@@ -30,21 +30,12 @@ class labels
             
             //Detail destiny
             shipping label myobj = new shipping label();
+            myobj.destiny = "42 Orlando Crescent USA"
+            Console.WriteLine(myobj.name);
+            Console.WriteLine(myobj.destiny;
         }
         
     }
 
-    
-        //I will use object concepts here        
-    class shipping label
-    //class space for computing 
-    {
-        ge
-
-
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello Foundation2 World!");
-        }
-    }
-}
+}    
+        
