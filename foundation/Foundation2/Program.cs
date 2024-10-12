@@ -1,4 +1,4 @@
-using System;
+/*using System;
 
 namespace MyApplication
 {
@@ -27,7 +27,7 @@ namespace MyApplication
 
     }
 }
-
+*/
 
 
 
@@ -35,16 +35,18 @@ using System;
 
 namespace MyApplication
 {
-  class Car 
+  class Video1 
   {
-    string color = "red";
-    int maxSpeed = 200;
-    string size = "big";
+    string tittle = "red";
+    string author ="Johnson";
+    int length = "2";
+    
 
     static void Main(string[] args)
     {
-      Car myObj = new Car();
-      Console.WriteLine(myObj.color);
-      Console.WriteLine(myObj.maxSpeed);
- Console.WriteLine(myObj.size);
- 
+      Car myObj = new video1();
+      Console.WriteLine(myObj.tittle);
+      Console.WriteLine(myObj.author);
+      Console.WriteLine(myObj.length);
+    }
+}
