@@ -1,4 +1,4 @@
-using System;
+/*using System;
 
 class labels
 //I will use the getters setters 
@@ -39,6 +39,23 @@ class labels
         }
 
     }
-}
+}*/
 
+
+using System;
+
+namespace MyApplication
+{
+  class Car 
+  {
+    string color = "red";
+    int maxSpeed = 200;
+    string size = "big";
+
+    static void Main(string[] args)
+    {
+      Car myObj = new Car();
+      Console.WriteLine(myObj.color);
+      Console.WriteLine(myObj.maxSpeed);
+ Console.WriteLine(myObj.size);
  
