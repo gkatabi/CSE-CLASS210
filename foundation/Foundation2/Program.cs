@@ -1,45 +1,34 @@
-/*using System;
+using System;
 
-class labels
-//I will use the getters setters 
+namespace MyApplication
 {
-    public class packing
+    class Video
     {
-        private string name;
-        public string Name
-        {
-            get { return name; }
-            set { name = value; }
-        }
-        class shippingLabel
-        {
-            public string destiny;
-            public string Destiny
-            {
-                get { return destiny; }
-                set { destiny = value; }
-            }
-        }
-        class program
-        {
-            static void main(string[] args)
-            {
-                //Detail company label
-                shippingLabel myobj = new shippingLabel();
-                myobj.destiny = "Alma packages";
-                myobj.display();
+        string tittle = "Funn movie";
+        string author = "Roberts";
+        string identity = Console.writeLine("Provide your names & coment");
+        string identity = Console.Write("Your personal name ");
+        string identity = Console.ReadLine();
+        string country = Console.Write("Your country: ");
+        string country = Console.ReadLine();
+        string comment = Console.Write("Your coment please: ");
+        string comment = Console.ReadLine();
 
-                //Detail destiny
-                shippingLabel.myobj = new shippingLabel();
-                myobj.destiny = "42 Orlando Crescent USA";
-                Console.WriteLine(myobj.destiny);
-                Console.WriteLine(myobj.Destiny);
-            }
+        static void Main(string[] args)
+        {
 
+            Video myObj = new Video();
+            Console.WriteLine(myObj.tittle);
+            Console.WriteLine(myObj.author);
+            Console.WriteLine(myObj.identity);
+            Console.WriteLine(myObj.country);
+            Console.WriteLine(myObj.comment);
         }
 
     }
-}*/
+}
+
+
 
 
 using System;
