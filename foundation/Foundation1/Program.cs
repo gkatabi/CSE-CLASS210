@@ -1,4 +1,4 @@
-using System; 
+ggusing System; 
 namespace MyPrograms 
 { 
 	public class Program01 
