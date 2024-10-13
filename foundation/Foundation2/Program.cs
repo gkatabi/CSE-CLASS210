@@ -3,7 +3,7 @@
 // static members of the outer class
 using System;
 namespace MyApplication
-{ 
+{
 // Outer class
     public class Video_class
 
@@ -24,7 +24,7 @@ namespace MyApplication
            
             // Displaying the value of a
             // static member of the Video class
-                string identity = Console.writeLine("Provide your names, address  & coment");
+            string identity = Console.writeLine("Provide your names, address  & coment");
             string identity = Console.Write("Your personal name ");
             string identity = Console.ReadLine();
             string house = Console.Write("House number: ")
@@ -63,16 +63,16 @@ namespace MyApplication
             public static void method2()
             {
                 string identity = Console.Write("Your personal name ");
-            string identity = Console.ReadLine();
-            string comment = Console.Write("Your coment please: ");
-            string comment = Console.ReadLine();
+                string identity = Console.ReadLine();
+                string comment = Console.Write("Your coment please: ");
+                string comment = Console.ReadLine();
         
                 Console.WriteLine(Video_second.tittle);
-             Console.WriteLine(Video_second.author);
-             Console.WriteLine(Video_second.int.parse(Console.ReadLine({length}));
-             Console.WriteLine(Video_second.identity);
-             Console.WriteLine(Video_second.comment);
-             }
+                Console.WriteLine(Video_second.author);
+                Console.WriteLine(Video_second.int.parse(Console.ReadLine({length}));
+                Console.WriteLine(Video_second.identity);
+                Console.WriteLine(Video_second.comment);
+            }
          }
     }
 
@@ -90,16 +90,16 @@ namespace MyApplication
             public static void method3()
             {
                 string identity = Console.Write("Your personal name ");
-            string identity = Console.ReadLine();
-            string comment = Console.Write("Your coment please: ");
-            string comment = Console.ReadLine();
+                string identity = Console.ReadLine();
+                string comment = Console.Write("Your coment please: ");
+                string comment = Console.ReadLine();
         
-            Console.WriteLine(Video_third.tittle);
-             Console.WriteLine(Video_third.author);
-             Console.WriteLine(Video_third.int.parse(Console.ReadLine({length}));
-             Console.WriteLine(Video_third.identity);
-             Console.WriteLine(Video_third.comment);
-             }
+                Console.WriteLine(Video_third.tittle);
+                Console.WriteLine(Video_third.author);
+                Console.WriteLine(Video_third.int.parse(Console.ReadLine({length}));
+                Console.WriteLine(Video_third.identity);
+                Console.WriteLine(Video_third.comment);
+            }
          }
     }
  
@@ -117,17 +117,17 @@ namespace MyApplication
             public static void method4()
             {
                 string identity = Console.Write("Your personal name ");
-            string identity = Console.ReadLine();
-            string comment = Console.Write("Your coment please: ");
-            string comment = Console.ReadLine();
+                string identity = Console.ReadLine();
+                string comment = Console.Write("Your coment please: ");
+                string comment = Console.ReadLine();
         
-            Console.WriteLine(Video_fourth.tittle);
-             Console.WriteLine(Video_fourth.author);
-             Console.WriteLine(Video_fourth.int.parse(Console.ReadLine({length}));
-             Console.WriteLine(Video_fourth.identity);
-             Console.WriteLine(Video_fourth.comment);
-             }
-         }
+                Console.WriteLine(Video_fourth.tittle);
+                Console.WriteLine(Video_fourth.author);
+                Console.WriteLine(Video_fourth.int.parse(Console.ReadLine({length}));
+                Console.WriteLine(Video_fourth.identity);
+                Console.WriteLine(Video_fourth.comment);
+            }
+        }
     }
 // Driver Class
     public class All_videos 
