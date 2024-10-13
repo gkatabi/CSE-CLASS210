@@ -128,10 +128,10 @@ namespace MyApplication
     {
  
     // Static data member of the video class
-        public  string tittle = "Blue wolf";
-        public string author ="Jonson say";
-        public string author ="Joon say";
-        public int length = "484";
+        public  string tittle = "green wolf";
+        public string author ="Jonson Bay";
+        
+        public int length = "444";
         public class Comment_class 
         {
  
