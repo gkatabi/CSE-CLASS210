@@ -25,6 +25,7 @@ namespace MyApplication
             // Displaying the value of a
             // static member of the Video class
             string identity = Console.writeLine("Provide your names, address  & coment");
+            string identity = Console.writeLine("Provide your names, address  & coment");
             string identity = Console.Write("Your personal name ");
             string identity = Console.ReadLine();
             string house = Console.Write("House number: ")
@@ -73,7 +74,18 @@ namespace MyApplication
                 Console.WriteLine(Video_second.identity);
                 Console.WriteLine(Video_second.comment);
             }
-         }
+=======
+            string identity = Console.ReadLine();
+            string comment = Console.Write("Your coment please: ");
+            string comment = Console.ReadLine();
+        
+            Console.WriteLine(Video_second.tittle);
+            Console.WriteLine(Video_second.author);
+            Console.WriteLine(Video_second.int.parse(Console.ReadLine({length})));
+            Console.WriteLine(Video_second.identity);
+            Console.WriteLine(Video_second.comment);
+            }
+        }
     }
 
     public class Video_third
@@ -100,8 +112,19 @@ namespace MyApplication
                 Console.WriteLine(Video_third.identity);
                 Console.WriteLine(Video_third.comment);
             }
-         }
+            string identity = Console.ReadLine();
+            string comment = Console.Write("Your coment please: ");
+            string comment = Console.ReadLine();
+        
+            Console.WriteLine(Video_third.tittle);
+            Console.WriteLine(Video_third.author);
+            Console.WriteLine(Video_third.int.parse(Console.ReadLine({length})));
+            Console.WriteLine(Video_third.identity);
+            Console.WriteLine(Video_third.comment);
+        }
+
     }
+
  
     public class Video_fourth
     {
@@ -109,6 +132,7 @@ namespace MyApplication
     // Static data member of the video class
         public  string tittle = "Blue wolf";
         public string author ="Jonson say";
+        public string author ="Joon say";
         public int length = "484";
         public class Comment_class 
         {
@@ -128,7 +152,19 @@ namespace MyApplication
                 Console.WriteLine(Video_fourth.comment);
             }
         }
-    }
+            string identity = Console.ReadLine();
+            string comment = Console.Write("Your coment please: ");
+            string comment = Console.ReadLine();
+        
+            Console.WriteLine(Video_fourth.tittle);
+            Console.WriteLine(Video_fourth.author);
+            Console.WriteLine(Video_fourth.int.parse(Console.ReadLine({length})));
+            Console.WriteLine(Video_fourth.identity);
+            Console.WriteLine(Video_fourth.comment);
+        }
+    
+
+
 // Driver Class
     public class All_videos 
     {
@@ -136,7 +172,7 @@ namespace MyApplication
     // Main method
         static public void Main()
         {
- 
+        
         // Accessing static method1 
         // of the inner class
             Video_class.video_class.method1();
@@ -145,5 +181,5 @@ namespace MyApplication
             Video_class.Video_fourth.method4();
             }
         }
-    }
-}       
+    }       
+}

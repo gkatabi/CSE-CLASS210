@@ -1,4 +1,32 @@
-using System;
+ggusing System; 
+namespace MyPrograms 
+{ 
+	public class Program01 
+	{ 
+		static void Main() 
+		{ 
+			// To call a method we've to create an object of a class 
+			// Here myObject is an object which is used to call the method add() 
+			Program01 myObject = new Program01(); 
+			myObject.add(); 
+			Console.ReadKey(); 
+		} 
+
+		public void add() 
+		{ 
+			int sum, a, b; 
+			Console.WriteLine("Enter 1st number: "); 
+			a = int.Parse(Console.ReadLine()); 
+
+			Console.WriteLine("Enter 2nd number: "); 
+			b = int.Parse(Console.ReadLine()); 
+
+			sum = a+b; 
+			Console.WriteLine("The addition is: "+ sum); 
+		} 
+	} 
+} 
+/*using System;
 
 class Program
 {
@@ -69,4 +97,4 @@ class program
 
 
     }
-}l
+}*/
