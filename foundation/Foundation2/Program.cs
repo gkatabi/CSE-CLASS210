@@ -1,4 +1,4 @@
-// C# program to illustrate the
+// C# program to illustrate the vital
 // concept of nested class accessing
 // static members of the outer class
 using System;
