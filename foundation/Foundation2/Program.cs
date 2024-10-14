@@ -1,4 +1,61 @@
 using system;
+class Student
+{
+    public int  { get; set; }
+    public string Name { get; private set; }
+
+    public Student() // Empty constructor
+    { }
+
+    public Student(int age, string name)
+    {
+        Age = age; // Work with Age as it is a field
+        Name = "John"; // OK: accessing a private setter
+    }
+}
+
+class ClassWithMain
+{
+    public static void Main()
+    {
+        // Using object initializer
+        var student = new Student
+        {
+            Age = 20, // Work with Age just like a public field
+            Name = "John" // ERROR: setter for the Name is private
+        };
+
+        // Using classic approach
+        var student = new Student();
+        student.Age = 20; // Work with Age just like a public field
+        student.Name = "John" // ERROR: setter for the Name is private
+
+// Using a constructor that sets age
+var student = new Student(20, "John");
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+using system;
 class product_label 
 {
     public virtual void description()
