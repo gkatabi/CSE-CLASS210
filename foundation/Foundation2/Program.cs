@@ -45,8 +45,8 @@ class Order
         Names = " "; //buyer's names
     }
     
-    public int Price  { get; set; }
-    public string Identity { get; private set; }
+    public int  { get; set; }
+    public string Packing { get; private set; }
 
     public Product() // Empty constructor
     { }
