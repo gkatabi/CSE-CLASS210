@@ -29,7 +29,7 @@ class address: label
 
     //info here
     private int house = Console.Write("Your house number: ");
-    private int house = into.parse(Console.ReadLine());
+    private int house = int.parse(Console.ReadLine());
     Console.WriteLine($"House description: {house}");
   }
 }
