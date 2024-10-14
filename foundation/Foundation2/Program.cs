@@ -27,7 +27,7 @@ class address: label
   public override void description() 
   {
 
-    //info here
+    //info here now
     private int house = Console.Write("Your house number: ");
     private int house = int.parse(Console.ReadLine());
     Console.WriteLine($"House description: {house}");
