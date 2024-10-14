@@ -65,16 +65,16 @@ class Order
 
 class Customer 
 {
-    public string Sales   { get; set; }
-    public string Names { get; private set; }
+    public string Names  { get; set; }
+    public string Address{ get; private set; }
 
-    public Order() // Empty constructor
+    public Customer () // Empty constructor
     { }
 
-    public Product(string Sales, string Names)
+    public Product(string Names, string Address)
     {
-        Sales = sales; // products sold to 1 buyer
-        Names = " "; // names of a buyer
+        Names = names; 
+        Addreas = " "; 
     }
     
     public int Sum { get; set; }
