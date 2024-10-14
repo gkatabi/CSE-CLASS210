@@ -101,11 +101,6 @@ class Customer
         International = " ";
      
     }
-
-
-
-
-    
 }
 
 
