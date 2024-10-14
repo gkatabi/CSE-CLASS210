@@ -110,6 +110,54 @@ class Customer
 
 
 
+class alAddressor 
+{
+    public int House { get; set; }
+    public string Street{ get; private set; }
+
+    public Adressor() 
+    { }
+
+    public Adressor(int House,string Street)
+    {
+        House = house; 
+        Street = " "; 
+    }
+    
+    public int Sum { get; set; }
+    public int Sipping{ get; private set; }
+
+    public Order() 
+    { }
+
+    public Order(int Sum, string Shipping)
+    {
+        Sum = sum;
+        Shipping = " ";
+     
+    }
+    public string Resident { get; set; }
+    public string international { get; private set; }
+
+    public Customer() 
+    { }
+
+    public Customer(string Resident, string International)
+    {
+        Resident = USA;
+        International = " ";
+     
+    }
+}
+
+
+
+
+
+
+
+
+
 
 
 
