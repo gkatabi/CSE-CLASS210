@@ -10,7 +10,7 @@ class product_label
 }
 
 
-class customer:label
+class customer: product
 {
     public overide void charactOne()
     {
@@ -45,12 +45,12 @@ class Program
 {
   static void Main(string[] args) 
   {
-    Animal myAnimal = new Animal();  // Create a Animal object
-    Animal myPig = new Pig();  // Create a Pig object
-    Animal myDog = new Dog();  // Create a Dog object
+     LabelmyCustomer = new Customer();  // Create a Label object
+    Label myAddress = new Address();  
+    Label  myOrder = new Order();  // Create a Dog object
 
-    myAnimal.animalSound();
-    myPig.animalSound();
-    myDog.animalSound();
+    myCustomer.charactOne();
+    myAddress.charactOne();
+    myOrder.charactOne();
   }
 } 
