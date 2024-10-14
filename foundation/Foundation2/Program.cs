@@ -42,18 +42,18 @@ class Order
     public Product(string Sales, string Names)
     {
         Sales = sales; // products sold to 1 buyer
-        Names = " "; //buyer's names
+        Names = " "; // names of a buyer
     }
     
     public int Sum { get; set; }
     public int Total{ get; private set; }
 
-    public Order() // Empty constructor
+    public Order() 
     { }
 
     public Order(int Sum, string Total)
     {
-        Sum = sum; // Work with Age as it is a field
+        Sum = sum;
         Total = " ";
      
     }
