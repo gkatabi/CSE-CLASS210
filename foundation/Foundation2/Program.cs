@@ -10,9 +10,9 @@ class product_label
 }
 
 
-class customer: product
+class customer: label
 {
-    public overide void charactOne()
+    public overide void description()
     {
 
         // info
@@ -22,7 +22,7 @@ class customer: product
 
 class address: label
 {
-  public override void charactOne() 
+  public override void description() 
   {
 
     //info here
@@ -32,7 +32,7 @@ class address: label
 
 class order: label
 {
-  public override void charactOne() 
+  public override void description() 
   {
     //info here
     
