@@ -45,16 +45,17 @@ class Order
         Names = " "; //buyer's names
     }
     
-    public int  { get; set; }
-    public string Packing { get; private set; }
+    public int Sum { get; set; }
+    public int Total{ get; private set; }
 
-    public Product() // Empty constructor
+    public Order() // Empty constructor
     { }
 
-    public Product(int Price, string Identity)
+    public Order(int Sum, string Total)
     {
-        Price = price; // Work with Age as it is a field
-        Identity = " "; 
+        Sum = sum; // Work with Age as it is a field
+        Total = " ";
+     
     }
     
 }
