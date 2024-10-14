@@ -170,13 +170,13 @@ class PackingShipping
 
        Var sun  = new  Sum  ( "350, " );
 
-       Var        = new     ( " " );
+       Var resident = new Resident ( ,"No " );
 
-       Var        = new     ( " " );
+       Var house = new House ( ,"Madiba " );
 
-       Var        = new     ( " " );
+       Var city = new City ( ,"Western " );
 
-       Var        = new     ( " " );
+       Var resident = new Resident ( " " );
 
        Var        = new     ( " " );
 
