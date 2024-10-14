@@ -13,6 +13,17 @@ class Product
         Name = " "; 
     }
     
+    public int Price  { get; set; }
+    public string Identity { get; private set; }
+
+    public Product() // Empty constructor
+    { }
+
+    public Product(int Price, string Identity)
+    {
+        Price = price; // Work with Age as it is a field
+        Identity = " "; 
+    }
     
 
 
