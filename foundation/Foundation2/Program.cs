@@ -78,7 +78,7 @@ class Customer
     }
     
     public int Sum { get; set; }
-    public int Sipping{ get; private set; }
+    public int Shipping{ get; private set; }
 
     public Order() 
     { }
@@ -166,9 +166,9 @@ class PackingShipping
 
        Var sum = new Sum    ( , "35 " );
 
-       Var        = new     ( " " );
+       Var name  = new Name ( ,"40 Queens " );
 
-       Var        = new     ( " " );
+       Var sun  = new  Sum  ( "350, " );
 
        Var        = new     ( " " );
 
