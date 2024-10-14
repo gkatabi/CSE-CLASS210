@@ -153,42 +153,11 @@ class alAddressor
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-class ClassWithMain
+class PackingShipping
 {
     public static void Main()
     {
-        // Using object initializer
-        var student = new Student
-        {
-            Age = 20, // Work with Age just like a public field
-            Name = "John" // ERROR: setter for the Name is private
-        };
+        var product_name = new Product_Name(20, "John");
 
-        // Using classic approach
-        var student = new Student();
-        student.Age = 20; // Work with Age just like a public field
-        student.Name = "John" // ERROR: setter for the Name is private
-
-// Using a constructor that sets age
-var student = new Student(20, "John");
     }
 
