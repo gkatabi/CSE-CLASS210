@@ -1,18 +1,29 @@
 using system;
-class Student
+class Product
 {
-    public int  { get; set; }
-    public string Name { get; private set; }
+    public int Quantity   { get; set; }
+    public string Name  { get; private set; }
 
-    public Student() // Empty constructor
+    public Product() // Empty constructor
     { }
 
-    public Student(int age, string name)
+    public Product(int Quantity, string name)
     {
-        Age = age; // Work with Age as it is a field
-        Name = "John"; // OK: accessing a private setter
+        Quantity = quantity; // Work with Age as it is a field
+        Name = " "; 
     }
+    
+    
+
+
+
+
 }
+
+
+
+
+
 
 class ClassWithMain
 {
