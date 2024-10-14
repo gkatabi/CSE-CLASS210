@@ -16,7 +16,9 @@ class customer: label
     {
 
         // info
-        Console.WriteLine( "description");
+        private string name = Console.Write("What is your name: ");
+Console.ReadLine();
+        Console.WriteLine($"{name} description");
     }
 }
 
@@ -26,7 +28,9 @@ class address: label
   {
 
     //info here
-    Console.WriteLine("description");
+    private int house = Console.Write("Your house number: ");
+    private int house = into.parse(Console.ReadLine());
+    Console.WriteLine($"House description: {house}");
   }
 }
 
