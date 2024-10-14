@@ -53,8 +53,8 @@ class Order
 
     public Order(int Sum, string Shipping)
     {
-        Sum = sum;
-        Shipping = " ";
+        Sales= sales;
+        Names = " ";
      
     }
     
@@ -65,15 +65,15 @@ class Order
 
 class Customer 
 {
-    public string Names  { get; set; }
+    public string Name  { get; set; }
     public string Address{ get; private set; }
 
     public Customer () // Empty constructor
     { }
 
-    public Product(string Names, string Address)
+    public Product(string Name, string Address)
     {
-        Names = names; 
+        Name = name; 
         Addreas = " "; 
     }
     
