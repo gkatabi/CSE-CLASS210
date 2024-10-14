@@ -157,7 +157,7 @@ class PackingShipping
 {
     public static void Main()
     {
-        var product_name = new Product_Name(20, "John");
-
+       Var name   = new Name(20, "John");
+       Var 
     }
 
