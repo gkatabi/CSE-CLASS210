@@ -46,15 +46,15 @@ class Order
     }
     
     public int Sum { get; set; }
-    public int Total{ get; private set; }
+    public int Sipping{ get; private set; }
 
     public Order() 
     { }
 
-    public Order(int Sum, string Total)
+    public Order(int Sum, string Shipping)
     {
         Sum = sum;
-        Total = " ";
+        Shipping = " ";
      
     }
     
