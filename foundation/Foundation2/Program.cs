@@ -124,16 +124,16 @@ class alAddressor
         Street = " "; 
     }
     
-    public int Sum { get; set; }
-    public int Sipping{ get; private set; }
+    public string City { get; set; }
+    public string Province{ get; private set; }
 
-    public Order() 
+    public Addressor () 
     { }
 
-    public Order(int Sum, string Shipping)
+    public Addressor (string City, string Provincy)
     {
-        Sum = sum;
-        Shipping = " ";
+        City = city;
+        Province = " ";
      
     }
     public string Resident { get; set; }
