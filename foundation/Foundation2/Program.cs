@@ -63,6 +63,50 @@ class Order
 
 
 
+class Customer 
+{
+    public string Sales   { get; set; }
+    public string Names { get; private set; }
+
+    public Order() // Empty constructor
+    { }
+
+    public Product(string Sales, string Names)
+    {
+        Sales = sales; // products sold to 1 buyer
+        Names = " "; // names of a buyer
+    }
+    
+    public int Sum { get; set; }
+    public int Sipping{ get; private set; }
+
+    public Order() 
+    { }
+
+    public Order(int Sum, string Shipping)
+    {
+        Sum = sum;
+        Shipping = " ";
+     
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
