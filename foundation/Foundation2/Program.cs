@@ -25,11 +25,43 @@ class Product
         Identity = " "; 
     }
     
-
-
-
-
 }
+
+
+
+
+
+class Customer
+{
+    public int Quantity   { get; set; }
+    public string Name  { get; private set; }
+
+    public Product() // Empty constructor
+    { }
+
+    public Product(int Quantity, string name)
+    {
+        Quantity = quantity; // Work with Age as it is a field
+        Name = " "; 
+    }
+    
+    public int Price  { get; set; }
+    public string Identity { get; private set; }
+
+    public Product() // Empty constructor
+    { }
+
+    public Product(int Price, string Identity)
+    {
+        Price = price; // Work with Age as it is a field
+        Identity = " "; 
+    }
+    
+}
+
+
+
+
 
 
 
