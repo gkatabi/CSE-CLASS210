@@ -31,18 +31,18 @@ class Product
 
 
 
-class Customer
+class Order
 {
-    public int Quantity   { get; set; }
-    public string Name  { get; private set; }
+    public string Sales   { get; set; }
+    public string Names { get; private set; }
 
-    public Product() // Empty constructor
+    public Order() // Empty constructor
     { }
 
-    public Product(int Quantity, string name)
+    public Product(string Sales, string Names)
     {
-        Quantity = quantity; // Work with Age as it is a field
-        Name = " "; 
+        Sales = sales; // products sold to 1 buyer
+        Names = " "; //buyer's names
     }
     
     public int Price  { get; set; }
