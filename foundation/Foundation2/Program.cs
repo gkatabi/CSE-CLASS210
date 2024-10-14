@@ -1,11 +1,11 @@
 using system;
 class product_label 
 {
-    public virtual void charactOne()
+    public virtual void description()
     {
        //info here
         
-        Console.WriteLine("charactOne");
+        Console.WriteLine("description");
     }
 }
 
@@ -16,7 +16,7 @@ class customer: product
     {
 
         // info
-        Console.WriteLine( "    ");
+        Console.WriteLine( "description");
     }
 }
 
@@ -26,17 +26,17 @@ class address: label
   {
 
     //info here
-    Console.WriteLine("       ");
+    Console.WriteLine("description");
   }
 }
 
-class order: level
+class order: label
 {
   public override void charactOne() 
   {
     //info here
     
-    Console.WriteLine("          ");
+    Console.WriteLine("description");
   }
 }
    
@@ -45,12 +45,12 @@ class Program
 {
   static void Main(string[] args) 
   {
-     LabelmyCustomer = new Customer();  // Create a Label object
+     Label myCustomer = new Customer();  // Create a Label object
     Label myAddress = new Address();  
-    Label  myOrder = new Order();  // Create a Dog object
+    Label  myOrder = new Order();  // Create a Order object
 
-    myCustomer.charactOne();
-    myAddress.charactOne();
-    myOrder.charactOne();
+    myCustomer.description();
+    myAddress.description();
+    myOrder.description();
   }
 } 
