@@ -89,6 +89,22 @@ class Customer
         Shipping = " ";
      
     }
+    public string Resident { get; set; }
+    public string international { get; private set; }
+
+    public Customer() 
+    { }
+
+    public Customer(string Resident, string International)
+    {
+        Resident = USA;
+        International = " ";
+     
+    }
+
+
+
+
     
 }
 
