@@ -162,9 +162,9 @@ class PackingShipping
 
        Var identify       = new Identity    (3, "Books " );
 
-       Var        = new     ( " " );
+       Var names  = new Names  [, "Framingo" ];
 
-       Var        = new     ( " " );
+       Var sum = new Sum    ( , "35 " );
 
        Var        = new     ( " " );
 
