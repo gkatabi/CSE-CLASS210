@@ -3,24 +3,24 @@ namespace storage_emulated
 {
     public class Problem
     {
-        protected string stress
+        protected string _stressed = " ";
+        protected string _anxious  = " ";
+        public string Get problem()
         {
-
+            return $"{   }  {  } ";
         }
         
-        protected string Anxiety
-        {
-
-
-        }
+    }
     
-    public class Solution
+    public class solutionActivity
     {
-        protected string Activity
+        private string _breath = " ";
+        private string _reflect= " ";
+        private string _list   = " ";
+        public string GetSolutionActivity()
         {
-            
-
-
+            return $"{_breath}{_reflect} {_list}";
+           
         }
 
 
