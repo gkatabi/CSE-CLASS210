@@ -1,5 +1,2 @@
 user system;
-class program
-{
-
-}
+namespace storage_emulated
