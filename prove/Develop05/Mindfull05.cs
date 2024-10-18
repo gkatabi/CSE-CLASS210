@@ -15,7 +15,7 @@ namespace program
     
     public class solutionActivity
     {
-        private string _breath = @"1. Breath & out and waitfor10 seconds\2. Breath out and in & wait for 20 seconds ";
+        private string _breath = @"1. Breath & out and wait for10 seconds\2. Breath out and in & wait for 20 seconds ";
         private string _reflect= @"1. Reflect on how your parent suffered\n2. Imitate Jesus\3. Close eyes & imagine God ";
         private string _list   = @"1. listing how you feel\2. listing what you have learned\n3. listing your wishes ";
         public string GetSolutionActivity()
