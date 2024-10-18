@@ -6,7 +6,7 @@ class Program
     {
         Console.WriteLine("Welcome to the mindfulness program!");
         Console.WriteLine("Describe your self by chosing a number\nrelated to your problem");
-        Console.WriteLine(  );
+        Console.WriteLine({_ }  );
         string choice = Console.Write("Which number is it?: ");
  
         int choice = into .parse (Console.ReadLine());
