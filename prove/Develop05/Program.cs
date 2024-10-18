@@ -5,6 +5,13 @@ class Program
     static void Main(string[] args)
     {
         Console.WriteLine("Welcome to the mindfulness program!");
-        Problem _anxious = new Problem()
+        Problem problem = new Problem()
+        
+
+
+        Solution solution = new Solution()
+        
+
+
     }
 }
