@@ -1,4 +1,4 @@
-user system;
+using system;
 //namespace storage_emulated
 namespace program
 {
