@@ -6,12 +6,14 @@ class Program
     {
         Console.WriteLine("Welcome to the mindfulness program!");
         Problem problem = new Problem()
-        Problem.Set_stress  =
-        Problem_anxious = 
+        problem.Set_stress =   "  ";
+        problem.Set_anxious =  "  ";
 
 
         Solution solution = new Solution()
-        
+        solution.Set_
+        solution.Set_
+        solution.Set_
 
 
     }
