@@ -10,7 +10,7 @@ namespace storage_emulated
             Console.WriteLine(@"1. Fearful\n2. Stranded\n3.Forgetful ";);
             string choice = Console.Write("Which number is it?: ");
  
-            int choice = into .parse (Console.ReadLine());
+            int choice = int .parse (Console.ReadLine());
             Console.WriteLine ($"{choice}");
             Problem problem = new Problem()
             problem.Set_stress =  ( "  ");
