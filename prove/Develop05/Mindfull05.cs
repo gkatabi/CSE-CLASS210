@@ -5,7 +5,7 @@ namespace storage_emulated
     {
         protected string _stressed = @"1. Fearful\n2. Stranded\n3.Forgetful ";
         protected string _anxious  = @"1. Busy\n2. Forget\n3. Unreliable ";
-        public string Get problem()
+        public string GetProblem()
         {
             return $"Are you{_stressed}?\nAre you{_anxious}?";
         }
