@@ -1,0 +1,5 @@
+user system;
+class program
+{
+
+}
