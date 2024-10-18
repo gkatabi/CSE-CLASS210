@@ -1,5 +1,6 @@
 user system;
-namespace storage_emulated
+//namespace storage_emulated
+namespace program
 {
     public class Problem
     {
