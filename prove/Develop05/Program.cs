@@ -5,6 +5,12 @@ class Program
     static void Main(string[] args)
     {
         Console.WriteLine("Welcome to the mindfulness program!");
+        Console.WriteLine("Describe your self by chosing a number\nrelated to your problem");
+        Console.WriteLine(  );
+        string choice = Console.Write("Which number is it?: ");
+ 
+        int choice = into .parse (Console.ReadLine());
+        Console.WriteLine ($"{choice}");
         Problem problem = new Problem()
         problem.Set_stress =  ( "  ");
         problem.Set_anxious =  ("  ");
@@ -12,8 +18,8 @@ class Program
 
         Solution solution = new Solution()
         solution.Set_Breath =("  ");
-        solution.Set_Reflect =("  ");
-        solution.Set_List     =("  ");   
+        solution.Set_Reflect=("  ");
+        solution.Set_List   =("  ");   
 
 
     }
