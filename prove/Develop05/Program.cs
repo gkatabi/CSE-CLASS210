@@ -1,7 +1,7 @@
 using System;
 namespace storage_emulated
 {
-    class Program
+    class Problem
     {
         static void Main(string[] args)
         {
