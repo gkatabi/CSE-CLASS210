@@ -1,5 +1,6 @@
 using System;
-namespace storage_emulated
+//namespace storage_emulated
+namespace program
 {
     class Problem
     {
