@@ -3,6 +3,10 @@ namespace Mindfull
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello Develop06 World!");
+        Problem problem = new Problem()
+        Problem.SetFear = (" Stressed");
+        Problem.SetStranded =( "Stressing");
+        Console.WriteLine(Problem.GetFear(Stressed());
+
     }
 }
