@@ -17,9 +17,13 @@ namespace Mindfull
             if int Chosen =" 1";
                 Console.WriteLine ("Choose from these below");
                 string number = Console.Write("1. I forget things that I plan\2. I am too busy to do it\3. Iam afraid it will take long");
-                
-                
                 string number =  (Console.ReadKey());
+            if int chosen = "2";
+                Thread.sleep(1000);
+                Comsole.WriteLine("5. Fear\n6. Stranded");
+                string <list> these = Console.Writerite("choice is:  ");
+                Console.ReadLine();
+                 
                 
             Problem problem1 = new Problem();
             Problem1.SetAnxiety = ("forgetting " );
