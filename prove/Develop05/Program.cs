@@ -11,5 +11,7 @@ namespace Mindfull
         Activity.SetBreath = ("Deep breath");
         Activity.SetReflect = ("Archieved");
         Activity.SetList = ("  ");
-    }.  Console.WriteLine(Activity.GetList( ));
+      Console.WriteLine(Activity.GetList( ));
+
+    }
 }
