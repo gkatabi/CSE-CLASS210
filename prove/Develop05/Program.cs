@@ -8,13 +8,18 @@ namespace Mindfull
             DateTime dateTime = DateTime.Now;
             Console.WriteLine("On :{0}",dateTime);
             Console.ReadKey();
+            
 
             Console.WriteLine("1.Stress\n2 Anxiety");
             int chosen = Console.Write("Under which number does your problem fall?");
             Console.ReadKey();
+            Thread.sleep(1000);
             if int Chosen =" 1";
-            string number = Console.Write("1. I forget things that I plan\2. I am too busy to do it\3. Iam afraid it will take long");
-            Console.ReadKey();
+                Console.WriteLine ("Choose from these below");
+                string number = Console.Write("1. I forget things that I plan\2. I am too busy to do it\3. Iam afraid it will take long");
+                
+                
+                string number =  (Console.ReadKey());
                 
             Problem problem1 = new Problem();
             Problem1.SetAnxiety = ("forgetting " );
