@@ -5,6 +5,17 @@ namespace Mindfull
     {
         static void Main(string[]args)
         {
+            DateTime dateTime = DateTime.Now;
+            Console.WriteLine("On :{0}",dateTime);
+            Console.ReadKey();
+
+            Console.WriteLine("1.Stress\n2 Anxiety");
+            int chosen = Console.Write("Under which number does your problem fall?");
+            Console.ReadKey();
+            if int Chosen =" 1";
+            string number = Console.Write("1. I forget things that I plan\2. I am too busy to do it\3. Iam afraid it will take long");
+            Console.ReadKey();
+                
             Problem problem1 = new Problem();
             Problem1.SetAnxiety = ("forgetting " );
             Problem2.SetStress =( " busy ");
@@ -17,4 +28,6 @@ namespace Mindfull
         }
     }
 }
+
+
 
