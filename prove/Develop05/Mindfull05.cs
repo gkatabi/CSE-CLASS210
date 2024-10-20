@@ -3,53 +3,61 @@ namespace Mindfull
 {
     public class Problem
     {
-        private string _fear ="Stressed ";
-        public string GetFear(string fear)
-        {
-            return _fear;
-        }
- 
+        private string _axiety ="ok ";
 
-        public void GetStranded(string stranded)
-        {
-            return _stranded;
-        }
-        private string _stranded = "Stressing ";
-
-        private string _forgetful = "Anxiety";
-        public string GetForgetful(string anxiety)
+        public string GetAnxiety()
         {
             return _anxiety;
         }
-        public void GetProblem()
+        public void setAnxiety(string anxiety)
         {
-            return  (_fear)   (_Stressed);
+            _anxiety = anxiety;
         }
-    }
-    public class Activity
+ 
+        private string _stress = "tod ";
+        public string GetStress()
+        {
+            return _stress;
+        }
+        public void SetStress(string stress)
+        {
+            _stress = stress;
+        }
+        
+
+    public class Solution
     {        
-        private string _breath = " deepbreath ";
-        public void GetBreath (string deepbreath )
+        private string _activity = " do ";
+        public string GetActivity ( )
         {
-            return _deepbreath;
+            return _activity;
         }
-        private  string _reflect = "Archeived ";
-        public string GetReflect (string archeived)
+        public void SetActivity(string activity)
         {
-            return _archeived;
+            _activity = activity;
         }
-        private string _list = "Things  ";
-        public string GetList (string things )
+
+
+        private string _time = "sec";
+        public string GetTime ( )
         {
-            return _things;
+            return _time;
         }
-        public string GetActivity()
+        public void SetTime(string time)
         {
-            return (_breath) (_reflect )  ( _list);
+            _time = time;
+            
+        }
+        public string GetProblemInfo()
+        {
+            return ($"{anxiety } solved by {activity} in {time} seconds"):
         }
 
     }
 
 }
+
+
+
 
 
