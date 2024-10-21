@@ -1,35 +1,95 @@
 using System;
-
 class Program
 {
     static void Main(string[] args)
     {
-        /*A >= 90
-          B >= 80
-          C >= 70
-          D >= 60
-          F < 60*/
-        Console.WriteLine("What was your Percentage score?: ");
-        Console.Write("Enter your percentage score: ");
-
-        int percentageScore = int.parse(Console.ReadLine()); 
-        if (percentageScore >= 90)
+        Console.Write("Enter your  score: ");
+            
+        int score = Convert.ToInt32(Console.ReadLine());
+        
+        if (score >= 90)
         {
-            Console.WriteLine($"You Scored:  {percentageScore}.");
-            Console.WriteLine("You passed in: A");
-        if (percentageScore >= 80)
-            Console.WriteLine($"You Scored:  {percentageScore}.");
-            Console.WriteLine("You passed in: B")
-        if (percentageScore >= 70)
-            Console.WriteLine($"You Scored:  {percentageScore}.");
-            Console.WriteLine("You passed in: C");
-        if (percentageScore >= 60)
-            Console.WriteLine($"You Scored:  {percentageScore}.");
-            Console.WriteLine("You survived with a grade: D");
-        else if (percentageScore < 60)
-            Console.WriteLine($"You Scored:  {percentageScore}.");
-            Console.WriteLine("You failed and pocketed an: F");
-  
+            Console.WriteLine("You passed");
+
+            if (score > 95)
+            {
+                Console.WriteLine(score + "A" , "+");
+            }
+            else if (score < 95)
+            {
+                Console.WriteLine(score +"A" , "-");
+            }
+        }
+
+        if (score >= 80)
+        {
+            Console.WriteLine("You passed");
+
+            if (score > 85)
+            {
+                Console.WriteLine(score + "B" , "+");
+            }
+            else if (score < 85)
+            {
+                Console.WriteLine(score +"-" , "B");
+            }
+        }
+
+        if (score >= 70)
+        {
+            Console.WriteLine("You passed");
+
+            if (score > 75)
+            {
+                Console.WriteLine(score + "C" , "+");
+            }
+            else if (score < 75)
+            {
+                Console.WriteLine(score +"-" , "C");
+            }
+        }
+
+        if (score >= 60)
+        {
+            Console.WriteLine("You passed");
+
+            if (score > 65)
+            {
+                Console.WriteLine(score + "D" , "+");
+            }
+            else if (score < 65)
+            {
+                Console.WriteLine(score +"-" , "D");
+            }
+        }
+
+        if (score >= 50)
+        {
+            Console.WriteLine("You passed");
+
+            if (score > 55)
+            {
+                Console.WriteLine(score + "E" , "+");
+            }
+            else if (score < 55)
+            {
+                Console.WriteLine(score +"-" , "E");
+            }
+        }
+        
+        if (score >= 40)
+        {
+            Console.WriteLine("You failed");
+
+            if (score > 45)
+            {
+                Console.WriteLine(score + "F" , "+");
+            }
+            else if (score < 45);
+            {
+                Console.WriteLine(score + "F" , "-");
+            }
         }
     }
 }
+
