@@ -36,17 +36,6 @@ namespace Mindfull
                 Console.WriteLine($"The {these} situation has a solution");
                 Console.WriteLine(Solutiob1.GetSolutionInfo());
                 Console.Writeine($"{Solution1.SetActivity} in for 10 {Solution2.SetTime}");
-                    
-                
-     //       Problem problem1 = new Problem();
-     //       Problem1.SetAnxiety = ("forgetting " );
-     //       Problem2.SetStress =( " busy ");
-     //       Console.WriteLine(Problem1.GetProblemInfo());
-
-    //        Solution solution1 = new Solution();
-   //         Solution1.SetActivity = ("breath");
-  //          Soolution2.SetTime = ("Seconds");
-  //          Console.WriteLine(Solutiob1.GetSolutionInfo());
         }
     }
 }
