@@ -1,5 +1,9 @@
 using System;
+
+namespace program
+
 namespace Mindfull
+
 {
     public class Problem
     {
@@ -25,7 +29,10 @@ namespace Mindfull
             {
                 Console.WriteLine(Problem1.GetProblemInfo());
                 Console.WriteLine ("Choose from these below");
+                Console.WriteLine("1 I forget things that I plan\n2. I am too busy to do it\n3. Iam afraid it will take long");
+
                 Console.WriteLine("1. I forget things that I plan\2. I am too busy to do it\3. Iam afraid it will take long");
+
                 Console.Write("Number: ");
                 string number =  (Console.ReadKey());
                 Console.WriteLine($"TThe {number} situation has a solution to it");
@@ -43,6 +50,7 @@ namespace Mindfull
             }
         }
     }
+
 }
 
 
