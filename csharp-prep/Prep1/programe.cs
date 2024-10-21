@@ -5,8 +5,32 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello Prep1 World!");
+        Console.WriteLine("What is your first name? ");
+        FirstName = Console.ReadLine();
+        Console.Write("What is your last name? ");
+        LastName = Console.ReadLine();
+        Console.WriteLine($"    "
     {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         Try to restructure the logic so it does exactly what you want.
 
 Random r = new Random();
