@@ -3,19 +3,12 @@ MySpace Documents
 {
     class journal()
     {
-
+        public string _number
     }
     
-    class Brax
+    
     {
-
+        public string _coment
     }
     
-    class Mose
-    {
-
-    }
-
-
-
 }
