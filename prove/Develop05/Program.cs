@@ -24,14 +24,15 @@ namespace Mindfull
             if int Chosen =" 1";
                 Console.WriteLine(Problem1.GetProblemInfo());
                 Console.WriteLine ("Choose from these below");
-                string number = Console.Write("1. I forget things that I plan\2. I am too busy to do it\3. Iam afraid it will take long");
+                Console.WriteLine("1. I forget things that I plan\2. I am too busy to do it\3. Iam afraid it will take long");
+                Console.Write("Number: ");
                 string number =  (Console.ReadKey());
                 Console.WriteLine($"TThe {number} situation has a solution to it");
             if int chosen = "2";
                 Thread.sleep(1000);
                 Console.WriteLine(Problem2.GetProblemInfo());
-                Comsole.WriteLine("5. Fear\n6. Stranded");
-                string these = Console.Writerite("choice is:  ");
+                Comsole.WriteLine("5. Fear\n6. Stranded"); 
+                Console.Writerite("choice is:  ");
                 Console.ReadLine();
                 Console.WriteLine($"The {these} situation has a solution");
                 Console.WriteLine(Solutiob1.GetSolutionInfo());
