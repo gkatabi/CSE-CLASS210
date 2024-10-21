@@ -12,7 +12,11 @@ namespace Mindfull
             Problem problem1 = new Problem();
             Problem1.SetAnxiety = ("forgetting " );
             Problem2.SetStress =( " busy ");
-            Console.WriteLine(Problem1.GetProblemInfo());
+
+            Solution solution1 = new Solution();
+            Solution1.SetActivity = ("breath");
+            Soolution2.SetTime = ("Seconds");
+            
             Console.WriteLine("1.Stress\n2 Anxiety");
             int chosen = Console.Write("Under which number does your problem fall?");
             Console.ReadKey();
@@ -22,23 +26,25 @@ namespace Mindfull
                 Console.WriteLine ("Choose from these below");
                 string number = Console.Write("1. I forget things that I plan\2. I am too busy to do it\3. Iam afraid it will take long");
                 string number =  (Console.ReadKey());
-                Console.WriteLine($"{number}");
+                Console.WriteLine($"TThe {number} situation has a solution to it");
             if int chosen = "2";
                 Thread.sleep(1000);
+                Console.WriteLine(Problem2.GetProblemInfo());
                 Comsole.WriteLine("5. Fear\n6. Stranded");
-                string <list> these = Console.Writerite("choice is:  ");
+                string these = Console.Writerite("choice is:  ");
                 Console.ReadLine();
-                 
+                Console.WriteLine($"The {these} situation has a solution");
+                Console.WriteLine(Solutiob1.GetSolutionInfo()); 
                 
-            Problem problem1 = new Problem();
-            Problem1.SetAnxiety = ("forgetting " );
-            Problem2.SetStress =( " busy ");
-            Console.WriteLine(Problem1.GetProblemInfo());
+     //       Problem problem1 = new Problem();
+     //       Problem1.SetAnxiety = ("forgetting " );
+     //       Problem2.SetStress =( " busy ");
+     //       Console.WriteLine(Problem1.GetProblemInfo());
 
-            Solution solution1 = new Solution();
-            Solution1.SetActivity = ("breath");
-            Soolution2.SetTime = ("Seconds");
-            Console.WriteLine(Solutiob1.GetSolutionInfo());
+    //        Solution solution1 = new Solution();
+   //         Solution1.SetActivity = ("breath");
+  //          Soolution2.SetTime = ("Seconds");
+  //          Console.WriteLine(Solutiob1.GetSolutionInfo());
         }
     }
 }
