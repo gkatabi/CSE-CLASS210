@@ -21,7 +21,7 @@ namespace Mindfull
             int chosen = Console.Write("Under which number does your problem fall?");
             Console.ReadKey();
             Thread.sleep(1000);
-            if int Chosen =" 1";
+            if (Chosen =" 1")
                 Console.WriteLine(Problem1.GetProblemInfo());
                 Console.WriteLine ("Choose from these below");
                 Console.WriteLine("1. I forget things that I plan\2. I am too busy to do it\3. Iam afraid it will take long");
