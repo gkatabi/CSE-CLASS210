@@ -34,7 +34,9 @@ namespace Mindfull
                 string these = Console.Writerite("choice is:  ");
                 Console.ReadLine();
                 Console.WriteLine($"The {these} situation has a solution");
-                Console.WriteLine(Solutiob1.GetSolutionInfo()); 
+                Console.WriteLine(Solutiob1.GetSolutionInfo());
+                Console.Writeine($"{Solution1.SetActivity} in for 10 {Solution2.SetTime}");
+                    
                 
      //       Problem problem1 = new Problem();
      //       Problem1.SetAnxiety = ("forgetting " );
