@@ -4,11 +4,9 @@ MySpace Documents
     class journal()
     {
         public string _number
+        public string _comment
+        
     }
-    
-    
-    {
-        public string _coment
-    }
+   
     
 }
