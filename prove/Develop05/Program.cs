@@ -15,7 +15,7 @@ namespace Mindfull
 
             Solution solution1 = new Solution();
             Solution1.SetActivity = ("breath");
-            Soolution2.SetTime = ("Seconds");
+            Solution2.SetTime = ("Seconds");
             
             Console.WriteLine("1.Stress\n2 Anxiety");
             int chosen = Console.Write("Under which number does your problem fall?");
