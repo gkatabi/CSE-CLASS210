@@ -1,14 +1,15 @@
 using System;
-namespace Mindfull
+namespace Mindfull01
 {
     public class Problem
     {
-        private string _axiety ="ok ";
+        private string _axiety =("ok ");
 
         public string GetAnxiety()
         {
             return _anxiety;
         }
+        
         public void setAnxiety(string anxiety)
         {
             _anxiety = anxiety;
@@ -24,10 +25,10 @@ namespace Mindfull
             _stress = stress;
         }
         
-
+    }
     public class Solution
     {        
-        private string _activity = " do ";
+        private string _activity = (" do ");
         public string GetActivity ( )
         {
             return _activity;
@@ -38,7 +39,7 @@ namespace Mindfull
         }
 
 
-        private string _time = "sec";
+        private string _time = ("sec");
         public string GetTime ( )
         {
             return _time;
@@ -50,14 +51,9 @@ namespace Mindfull
         }
         public string GetProblemInfo()
         {
-            return ($"{anxiety } solved by {activity} in {time} seconds"):
+            return ($"{anxiety } solved by {activity} in {time} seconds");
         }
 
     }
 
 }
-
-
-
-
-
