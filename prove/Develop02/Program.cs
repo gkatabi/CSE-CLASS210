@@ -5,11 +5,12 @@ MySpace Documents
     {
         static void Main(string[] args)
     
-        Console.WriteLine("Hello Develop02 World!");
-
         DateTime dateTime = new DateTime();
         Console.WriteLine(dateTime);
         Console.ReadKey();
+        Console.WriteLine("1.I forgot\n2.I was negligent\n3.No idea\n4.Luck of time\n5.Not sure\n6.Carried away");
+        
+
 
     }
 }
