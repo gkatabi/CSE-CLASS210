@@ -10,9 +10,9 @@ class Program
         string goals = Console.ReadLine();
         int goal = Convert.ToInt32(Console.ReadLine());
         goal = 5; 
-        While goal < 5;
+        While (goal < 5)
         {
-        Console.WriteLine(goal);
+            Console.WriteLine(goal);
         goal++;
         }
 
