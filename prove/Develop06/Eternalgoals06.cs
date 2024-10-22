@@ -1,7 +1,7 @@
 using system;
 namespace Documents
 {
-    Public class Goal
+    public class Goal
     {
      
     }
