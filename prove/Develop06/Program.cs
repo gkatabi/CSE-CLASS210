@@ -9,24 +9,28 @@ class Program
         Console.Write("Which number refers to your goal? ");
         string goals = Console.ReadLine();
         int goal = Convert.ToInt32(Console.ReadLine());
-        goal = 5; 
-        While (goal < 5)
-        {
-            Console.WriteLine(goal);
+        goal = 5;
+        while (goal < 5) ;
         goal++;
-        }
+        Console.WriteLine(goal + "goal");
 
-        //Condition user's choices
-        //Call for inheritance method
-        //if (goal>3;for goal;while
-        //{
-        //   Console.Loveme();
-        //} 
 
-        //        Intentions intentions = new intentions(oftimes);
-         
+
+
+        //                    Goal goal = new Goal();
+
+
 
     }
 }
+//Condition user's choices
+//Call for inheritance method
+//if (goal>3;for goal;while
+//{
+//   Console.Loveme();
+//} 
+
+//        Intentions intentions = new intentions(oftime
+
 
 
