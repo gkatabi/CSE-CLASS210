@@ -16,8 +16,8 @@ class Program
         //   Console.Loveme();
         //} 
        
-//        Intentions intentions = new intentions(oftimes);
-       
+        Intentions intentions = new intentions(oftimes);
+        
         
     }
 }
