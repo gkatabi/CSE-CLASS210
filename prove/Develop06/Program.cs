@@ -13,10 +13,10 @@ class Program
         //Call for inheritance method
         //if (goal>3;for goal;while
         //{
-           Console.Loveme();
+        //   Console.Loveme();
         //} 
        
-        Intentions intentions = new intentions(oftimes);
+//        Intentions intentions = new intentions(oftimes);
        
         
     }
