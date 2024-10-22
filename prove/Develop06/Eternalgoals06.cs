@@ -1,4 +1,4 @@
-using system;
+/*using system;
 namespace Documents
 {
     public class Goal
@@ -17,3 +17,4 @@ namespace Documents
 
 
 }
+*/
