@@ -1,5 +1,5 @@
 using system;
-MySpace Documents
+mySpace Documents
 {
     Public class Goal
     {
