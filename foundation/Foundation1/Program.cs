@@ -5,10 +5,10 @@ namespace Documents
     class Videos
     {
     
-        public List<string>_videos = new List<string>(); 
-        _tittle = " ";
-        _author = " ";
-        _length= " ";
+        Video1 = new Video ()
+        Video1 string _tittle = " ";
+        Video1 string _author = " ";
+        Video1 string _length= " ";
     
     
     
