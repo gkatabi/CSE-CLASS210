@@ -15,15 +15,12 @@ class Program
             List<int> duplets;
             duplets = new List<int>();
             duplets.Add("number");
-            }
-           // List<int> duplets;
-            //duplets = new List<int>();
-            //duplets.Add("number");
-            
-
         }
     }
+
 }
+
+
 
 
 
