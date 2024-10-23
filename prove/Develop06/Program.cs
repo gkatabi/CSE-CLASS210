@@ -5,7 +5,10 @@ class Program
     static void Main(string[] args)
     {
         //goals sector 
+        List<string>goals
+        goals = new List<string>();
         Console.WriteLine("It's an eternal quest game application.\nWe choose and pursue any of the following goals:\n1. Care or own a family\n2. Serve church callings\n3. Work to earn\n4. Study scriptures\n5. Quit");
+       
         Console.Write("Which number refers to your goal? ");
         string goals = Console.ReadLine();
         int goal = Convert.ToInt32(Console.ReadLine());
