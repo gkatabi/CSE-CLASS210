@@ -1,32 +1,14 @@
 using System;
 my Program
 {
-
-    class 
-    public class Invitation(welcomes)
+    Class Methoths
     {
-        return //Console.WriteLine("Welcome to the program!");
-    } 
-
+        static void Main(" ");
+       
+    }
   
-
-
-    static void Main(string[] args)
-    {
-        Console.WriteLine("Hello Prep5 World!");
 
 }
 
 
 
-/*
-        Invitation invitation = new Invitation ();
-        string invitation =("Welcome to the program!"
-     
-
-        Initials initials = new Initials();
-        
-
-
-    }
-}*/
