@@ -9,8 +9,15 @@ namespace Documents
         _tittle = " ";
         _author = " ";
         _length= " ";
+    
+    
+    
+        static void Words(string Commenter,string comment)
+        
+        video ._viewer = " ";
+        video ._comment= " ";
 
-
+    }
 
 
 
