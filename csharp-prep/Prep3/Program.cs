@@ -5,31 +5,41 @@ class Program
     static void Main(string[] args)
     {
         Console.WriteLine("Welcome to the magic number");
-         number = 5
+
         string Number = Console.Write("What is the number? ");
-         
-        string Number= (Console.ReadLine());
-        int number = Console.ReadLine();
-        if (number== 5)
+
+        int Number = Convert.ToInt32(Console.ReadLine());
+
+
+        int Number = Console.ReadLine();
+        Console.WriteLine(Number);
+        Number = 5
+
+
+
+        while (Number != 5)
         {
+
             Console.WriteLine("Wrong guess");
-            do
+
+            Console.WriteLine("Guess again");
+            if (Number > 5)
             {
-                Console.WriteLine ("Guess again");
-                Console.ReadLine();
-            While (number != 5)
+                Console.WriteLine("That is high. Guess lower");
+
             }
-        // add if loops here to determinee predictions
-        // begin with a while loop to  chain continuity in the game
-        
-        /*int number = 5;
-        While (guess<5)
-        {
-            if (guess != 5)
-                Console.WriteLine("Guess is lower than that. guess higher");*/
-            if (guess = 5)
-                Console.WriteLine($"You have guessed right\n{guess} is the number");
-        gues = 13++
+            if (Number < 5) ;
+            {
+                Console.WriteLine("That is lower than it");
+            else if (Number = 5)
+            {
+                Console.WriteLine("Congraturations.That is it");
+
+
+            }
+
+        Number++
+
         }
     }
 }
