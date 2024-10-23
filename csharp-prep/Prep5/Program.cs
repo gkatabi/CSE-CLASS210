@@ -33,13 +33,13 @@ class Program
         int x = Convert .ToInt32(Console.ReadLine);
         Console.Write(Give another number: ");
         int y = (Console.ReadLine(
-        result = x * y ;
+        result = x;
         Console.Write($"Square number is : {result}");
     }
     
     static void DisplayResults(string,  int)
     {
-        Console.WriteLine(
+        Console.WriteLine($"Hello brother" +","+{last}+"the square root of your number is" {results});
     }
 
 }
