@@ -5,6 +5,7 @@ class Program
     static void Main(string[] args)
     {
         //goals sector
+        Console.WriteLine("It's an eternal quest game application.\nWe choose and pursue any of the following goals:\n1. Care or own a family\n2. Serve church callings\n3. Work to earn\n4. Study scriptures\n5. Quit");
         List<string>goals;
         goals = new List<string>();
         goals.Add("1. Care or own a family");
@@ -12,11 +13,14 @@ class Program
         goals.Add("3. Work to earn");
         goals.Add("4. Study scriptures ");
         goals.Add("5. Quit");
-        //goals sector 
-        Console.WriteLine("It's an eternal quest game application.\nWe choose and pursue any of the following goals:\n1. Care or own a family\n2. Serve church callings\n3. Work to earn\n4. Study scriptures\n5. Quit");
-        Console.Write("Which number refers to your goal? ");
-        string goals = Console.ReadLine();
-        int goal = Convert.ToInt32(Console.ReadLine());
+        foreach (string goal in goals);
+        {
+        Console.WriteLine(goal);
+        } 
+        Console.Write("Which number refers to your choice? ");
+        string choice = Console.ReadLine();
+
+        int choice = Convert.ToInt32(Console.ReadLine());
         goal = 5;
         while (goal < 5) ;
         goal++;
