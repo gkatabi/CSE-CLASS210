@@ -1,3 +1,33 @@
+using System;
+namespace Documents
+{
+    class Videos
+    {
+    
+
+
+
+
+
+
+
+
+
+        public void VideoTrucker(string[] args)
+        {
+            Console.WriteLine("Hello Foundation3 World!");
+        }
+    }
+
+
+
+
+
+
+
+
+
+
 // static members of the outer class
 using System;
 namespace MyApplication
