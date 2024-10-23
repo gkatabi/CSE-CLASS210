@@ -34,11 +34,9 @@ class Program
             else if (Number = 5)
             {
                 Console.WriteLine("Congraturations");
-            
-
             }
 
-         Number++
+        Number++
         if (Number = 5)
         {
             Console.WriteLine("That is the number");
