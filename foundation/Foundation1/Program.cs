@@ -6,7 +6,7 @@ namespace MyApplication
     public class Video_class
 
     {
- 
+ /*
     // Static data member of the video class
         public  string tittle = "Red Rat";
         public string author ="Johnson moody";
@@ -181,3 +181,4 @@ namespace MyApplication
         }
     }       
 }
+*/
