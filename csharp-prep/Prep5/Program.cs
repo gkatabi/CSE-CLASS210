@@ -38,7 +38,7 @@ class Program
     
     static void DisplayResults(string,  int)
     {
-        Console.WriteLine($"Hello brother" +","+{last}+"the square root of your number is" {results});
+        Console.WriteLine($"Hello brother" +","+{last}+"the square of your number is" {results});
     }
 
 }
