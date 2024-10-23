@@ -5,16 +5,21 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("What is your first name? ");
+        Console.Write("What is your first name? ");
         string FirstName = Console.ReadLine();
         Console.Write("What is your last name? ");
         LastName = Console.ReadLine();
-        Console.WriteLine("Your name is " + LastName, + FirstName + LastName+ ".");
-        { }
-        Console.Write("What is your first name?
-        string firstname = Console.ReadLine();
-        Console.WriteLine("
-    {
+        Console.WriteLine("Your name is " + LastName+"," + FirstName + LastName+ ".");
+        
+        Console.Write("What is your first name? ");
+        string FirstName = Console.ReadLine();
+        Console.Write("What is your last name? ");
+        LastName = Console.ReadLine();
+        Console.WriteLine("Your name is " + LastName+"," + FirstName + LastName+ ".");
+    }
+}
+        
+        
 
 
 
