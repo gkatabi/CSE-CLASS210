@@ -27,14 +27,19 @@ class Program
     }
     
 
-    static void Square number (int x,int y)
+    int void Square number (int x,int y)
     {.  
         Console.write("Give me a number: ");
         int x = Convert .ToInt32(Console.ReadLine);
         Console.Write(Give another number: ");
         int y = (Console.ReadLine(
         result = x * y ;
-        Console.Write(
+        Console.Write($"Square number is : {result}");
+    }
+    
+    static void DisplayResults(string,  int)
+    {
+        Console.WriteLine(
     }
 
 }
