@@ -1,15 +1,15 @@
 using System;
-my Program
+class Program
 {
-    Class vital
+    static void main(strings,integers)
     {
-        static void DisplayName();
-        {
-            return name
-        }
+        Console.WriteLine("Welcome to the program! ");
+        
        
     }
-  
+    
+    static void 
+
 
 }
 
