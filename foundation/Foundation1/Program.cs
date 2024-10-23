@@ -5,7 +5,7 @@ namespace Documents
     class Videos
     {
     
-
+        public List<string>_videos = new List<string>(); 
 
 
 
