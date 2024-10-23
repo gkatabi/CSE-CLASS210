@@ -28,18 +28,21 @@ class Program
                 Console.WriteLine("That is high. Guess lower");
 
             }
-            if (Number < 5) ;
+            if (Number < 5) 
             {
                 Console.WriteLine("That is lower than it");
             else if (Number = 5)
             {
-                Console.WriteLine("Congraturations.That is it");
-
+                Console.WriteLine("Congraturations");
+            
 
             }
 
-        Number++
-
+         Number++
+        if (Number = 5)
+        {
+            Console.WriteLine("That is the number");
         }
+        
     }
 }
