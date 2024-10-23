@@ -21,19 +21,18 @@ class Program
     static void PromptUserNumber(int mumber)
     {
         Console.Write("please enter your favourite  number?: ");
-        int usernumber = Console.ReadLine();
+        int usernumber =Convert .ToInt32(Console.ReadLine());
         Console.WriteLine ($"Usernumber "+{Usernumber});
         
     }
     
 
-    int void Square number (int x,int y)
+    int void Square number (int x)
     {.  
         Console.write("Give me a number: ");
-        int x = Convert .ToInt32(Console.ReadLine);
-        Console.Write(Give another number: ");
-        int y = (Console.ReadLine(
-        result = x;
+        int x =  Convert .ToInt32(Console.ReadLine());
+     
+         result = x * x; 
         Console.Write($"Square number is : {result}");
     }
     
