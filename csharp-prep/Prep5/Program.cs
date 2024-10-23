@@ -13,9 +13,24 @@ class Program
         String first = Console.ReadLine();
         Console.Write(What is your last name?: ");
         string last = Console.ReadLine();
-        Console.WriteLine($"Brother {} { }");
-    {
+        Console.WriteLine($"Brother {0} {1} first,last");
+    }
+    
 
+
+    static void PromptUserNumber(int mumber)
+    {
+        Console.Write("please enter your favourite  number?: ");
+        int usernumber = Console.ReadLine();
+        Console.WriteLine ($"Usernumber "+{Usernumber});
+        
+    }
+    
+
+    static void Square number (int num1,int num2)
+    {
+        
+    }
 
 }
 
