@@ -6,7 +6,9 @@ namespace Documents
     {
     
         public List<string>_videos = new List<string>(); 
-
+        _tittle = " ";
+        _author = " ";
+        _length= " ";
 
 
 
