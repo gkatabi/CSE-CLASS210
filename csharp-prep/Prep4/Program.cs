@@ -8,12 +8,12 @@ class Program
         while (number > 0)
         {
             Console.WriteLine("Write a number");
+            int number = Convert.ToInt32(Console.ReadLine());
             Console.ReadLine();
-            List<int>Numbers;
-            numbers = new List<into>();
-            foreach (number in numbers)
+            List<int>duplets;
+            duplets = new List<int>();
             {
-            answer.Add "number"
+            duplets.Add ("number");
             }
 
         }  
