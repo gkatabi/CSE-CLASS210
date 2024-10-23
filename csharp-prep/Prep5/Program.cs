@@ -1,9 +1,12 @@
 using System;
 my Program
 {
-    Class Methoths
+    Class vital
     {
-        static void Main(" ");
+        static void DisplayName();
+        {
+            return name
+        }
        
     }
   
