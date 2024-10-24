@@ -1,4 +1,63 @@
-using System.Collections.Generic;
+using System;
+
+namespace Documents_GitHub
+
+{
+
+    class Program
+
+    {
+
+   
+
+   
+
+        static void main(string[]args)
+
+        {
+
+           
+
+            EternalGoals1 = new EternalGoal();
+
+            EternalGoal1.SetGoal("Read scriptures");
+
+            EternalGoal.SetAward("100");
+
+            Console.WriteLine(EternalGoal1.GetEternalGoalInfo());
+
+        }
+
+        public string GetEternalGoalInfo();
+
+        {
+
+            return ($"{_goal} earned you {_award}");
+
+        }
+
+       
+
+ 
+
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*using System.Collections.Generic;
 
 class Program
 {
@@ -43,6 +102,7 @@ class Program
 //} 
 
 //        Intentions intentions = new intentions(oftime
+*/
 
 
 
