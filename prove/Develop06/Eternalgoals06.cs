@@ -8,7 +8,7 @@ namespace Application
 
     {
 
-        pivate string _goal =   "devoted  ";
+        pivate string _goal =   "Devoted  ";
 
         private string _award = "money ";
 
