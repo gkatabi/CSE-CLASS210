@@ -1,20 +1,83 @@
-/*using system;
-namespace Documents
-{
-    public class Goal
-    {
-        _days = days;
-    }
-    public class Description
-    {
-        _height = height;
-    }
-    public class Measures
-    {
-        _quantity = quantity;
-    }
-    //Allow creating a new goal
+using System;
 
+namespace Application
+
+{
+
+    public class EternalGoals
+
+    {
+
+        pivate string _goal =   "devoted  ";
+
+        private string _award = "money ";
+
+        public string GetGoal();
+
+        {
+
+            return_goal;
+
+        }
+
+        public void SetGoal(string goal)
+
+        {
+
+            _goal = goal;
+
+        }
+
+        public string GetAward()
+
+        {
+
+            return _award;
+
+        }
+
+        public void SetAward(string award)
+
+        {
+
+            _award = award;
+
+        }
+
+ 
+
+    public class continuous:EternalGoals
+
+    {
+
+        private string _length;
+
+        public continuous(string goal, string length) : base(goal)
+
+ 
+
+        {
+
+            _goal = goal;
+
+        }
+
+ 
+
+        public string GetLength()
+
+        {
+
+            return _length;
+
+        }
+
+       
+
+    }
+
+   
 
 }
-*/
+
+       
