@@ -1,5 +1,5 @@
 using System;
-MySpace Documents
+my Documents
 {
     class journal02
     {
