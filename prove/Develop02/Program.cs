@@ -1,5 +1,5 @@
 using System;
-my Documents
+namespace Documents
 {
     class journal02
     {
