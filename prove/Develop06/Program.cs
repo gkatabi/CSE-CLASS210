@@ -20,11 +20,11 @@ namespace Documents_GitHub
 
             EternalGoals EternalGoals1 = new EternalGoals();
 
-            EternalGoal1.SetGoal("1.Read scriptures");
+            EternalGoals1.SetGoal("1.Read scriptures");
 
-            EternalGoal1.SetAward("100");
+            EternalGoals1.SetAward("100");
 
-            Console.ReadLine(EternalGoals1.GetEternalGoalInfo());
+            Console.ReadLine(EternalGoals1.GetEternalGoalsInfo());
 
  
 
@@ -32,9 +32,9 @@ namespace Documents_GitHub
 
             ServeACalling EternalGoals2 = new ServeACalling();
 
-            EternalGoal2.SetGoal("Every month");
+            EternalGoals2.SetGoal("Every month");
 
-            EternalGoal2.SetAward("60");
+            EternalGoals2.SetAward("60");
 
             Console.ReadLine(EternalGoals2.GetEternalGoalsInfo());
 
@@ -42,9 +42,9 @@ namespace Documents_GitHub
 
             AttendChurch EternalGoals3 = new AttendChurch();
 
-            EternalGoal3.SetGoal("Eat sacrament");
+            EternalGoals3.SetGoal("Eat sacrament");
 
-            EternalGoal3.SetAward("10");
+            EternalGoals3.SetAward("10");
 
             Console.ReadLine(EternalGoals3.GetEternalGoalsInfo());
 
@@ -52,7 +52,7 @@ namespace Documents_GitHub
 
             WorkHard EternalGoals4 = new WorkHard();
 
-            EternalGoal4.SetGoal("Become self reliant");
+            EternalGoals4.SetGoal("Become self reliant");
 
             EternalGoal4.SetAward("50");
 
