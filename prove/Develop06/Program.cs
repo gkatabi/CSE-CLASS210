@@ -4,11 +4,11 @@ namespace Documents_GitHub
 
 {
 
-    class Program
+    class program
 
     {
 
-   
+ 
 
    
 
@@ -18,91 +18,120 @@ namespace Documents_GitHub
 
            
 
-            EternalGoals1 = new EternalGoal();
+            EternalGoals EternalGoals1 = new EternalGoals();
 
-            EternalGoal1.SetGoal("Read scriptures");
+            EternalGoal1.SetGoal("1.Read scriptures");
 
-            EternalGoal.SetAward("100");
+            EternalGoal1.SetAward("100");
 
-            Console.WriteLine(EternalGoal1.GetEternalGoalInfo());
+            Console.ReadLine(EternalGoals1.GetEternalGoalInfo());
 
-        }
+ 
 
-        public string GetEternalGoalInfo();
+           
 
-        {
+            ServeACalling EternalGoals2 = new ServeACalling();
 
-            return ($"{_goal} earned you {_award}");
+            EternalGoal2.SetGoal("Every month");
+
+            EternalGoal2.SetAward("60");
+
+            Console.ReadLine(EternalGoals2.GetEternalGoalsInfo());
+
+ 
+
+            AttendChurch EternalGoals3 = new AttendChurch();
+
+            EternalGoal3.SetGoal("Eat sacrament");
+
+            EternalGoal3.SetAward("10");
+
+            Console.ReadLine(EternalGoals3.GetEternalGoalsInfo());
+
+ 
+
+            WorkHard EternalGoals4 = new WorkHard();
+
+            EternalGoal4.SetGoal("Become self reliant");
+
+            EternalGoal4.SetAward("50");
+
+            Console.ReadLine(EternalGoals4.GetEternalGoalsInfo());
+
+ 
+
+           
+
+            Console.WriteLine(These are eternal goals to get you closer to Christ.\n1. Have a set goal\n2. Serve a calling\n3. Attend Church\n4. Work hard);
+
+            Console.Write("Write the number related to a goal similar to your goals"  );
+
+            int number = int.parse (Console.ReadLine());
+
+            string a = "1";
+
+            string b = "2";
+
+            string c = "3";
+
+            string d = "4";
+
+            bool 5 = false;
+
+            while (number !5)
+
+            {
+
+           
+
+                string number a = Console.WriteLine("Have a set goal ");
+
+                string number b = Console.WriteLine("Serve a calling");
+
+                string number c = Console.WriteLine("Attend church ");
+
+                string number d = Console.WriteLine("Work hard ");
+
+                Console.WriteLine($"number");
+
+ 
+
+                if (number > 0)
+
+                {
+
+                    // Create a box or an empty list  where to top up the goals chosen
+
+                   
+
+                    Console.Write("Write another number related to a goal similar to your goals"  );
+
+                    int number = int.parse (Console.ReadLine());
+
+                    string a = "1";
+
+                    string b = "2";
+
+                    string c = "3";
+
+                    string d = "4";
+
+ 
+
+            }
+
+ 
 
         }
 
        
 
+    }
+
+}
+
+
+
+
+
  
-
-    }
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*using System.Collections.Generic;
-
-class Program
-{
-    static void Main(string[] args)
-    {
-        //goals sector
-        Console.WriteLine("It's an eternal quest game application.\nWe choose and pursue any of the following goals:\n1. Care or own a family\n2. Serve church callings\n3. Work to earn\n4. Study scriptures\n5. Quit");
-        List<string>goals;
-        goals = new List<string>();
-        goals.Add("1. Care or own a family");
-        goals.Add("2. Serve church callings");
-        goals.Add("3. Work to earn");
-        goals.Add("4. Study scriptures ");
-        goals.Add("5. Quit");
-        foreach (string goal in goals);
-        {
-        Console.WriteLine(goal);
-        } 
-        Console.Write("Which number refers to your choice? ");
-        string choice = Console.ReadLine();
-
-        int choice = Convert.ToInt32(Console.ReadLine());
-        goal = 5;
-        while (goal < 5) ;
-        goal++;
-        Console.WriteLine(goal + "goal");
-
-
-
-
-        //                    Goal goal = new Goal();
-
-
-
-    }
-}
-//Condition user's choices
-//Call for inheritance method
-//if (goal>3;for goal;while
-//{
-//   Console.Loveme();
-//} 
-
-//        Intentions intentions = new intentions(oftime
-*/
-
-
-
