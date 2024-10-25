@@ -64,41 +64,18 @@ namespace Documents_GitHub
 
             Console.WriteLine(These are eternal goals to get you closer to Christ.\n1. Have a set goal\n2. Serve a calling\n3. Attend Church\n4. Work hard);
 
-            Console.Write("Write the number related to a goal similar to your goals"  );
+            Console.Write("Write the one related to a goal similar to your goals"  );
 
-            int number = int.parse (Console.ReadLine());
-
-            string a = "1";
-
-            string b = "2";
-
-            string c = "3";
-
-            string d = "4";
-
+            string done = Console.ReadLine());
             bool 5 = false;
-
             while (number !5)
+            {   
+                List<string> done = new List<string>();
+                done.Add($"{ }");
+                Console.ReadLine();
+            
 
-            {
-
-           
-
-                string number a = Console.WriteLine("Have a set goal ");
-
-                string number b = Console.WriteLine("Serve a calling");
-
-                string number c = Console.WriteLine("Attend church ");
-
-                string number d = Console.WriteLine("Work hard ");
-
-                Console.WriteLine($"number");
-
- 
-
-                if (number > 0)
-
-                {
+            
 
                     // Create a box or an empty list  where to top up the goals chosen
 
