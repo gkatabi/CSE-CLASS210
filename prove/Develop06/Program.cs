@@ -94,27 +94,27 @@ foreach (KeyValuePair<int, string> pair in dictionary)
                 List<string> done = new List<string>();
                 if (number = 1)
                 {
-                    done.Add($"{ }");
+                    done.Add("1, Reading scriptures");
                 }
                 
                 if (number = 2)
                 {
-                    done.Add($"{ }");
+                    done.Add("Serving a calling");
                 }
 
                 if (number = 3)
                 {
-                    done.Add($"{ }");
+                    done.Add("Attend church"");
                 }
 
                 if (number = 4)
                 {
-                    done.Add($"{ }");
+                    done.Add("4,Work hard ");
                 }
 
                 if (number = 5)
                 {
-                    done.Add($"{ }");
+                    done.Add("5, Quit every thing");
                 }
 
              
