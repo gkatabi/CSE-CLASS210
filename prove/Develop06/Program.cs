@@ -62,11 +62,18 @@ namespace Documents_GitHub
 
            
 
-            Console.WriteLine(These are eternal goals to get you closer to Christ.\n1. Have a set goal\n2. Serve a calling\n3. Attend Church\n4. Work hard);
+            Console.WriteLine(These are eternal goals to get you closer );
 
-            Console.Write("Write the one related to a goal similar to your goals"  );
+            Console.Write("Write the one related to a goal"  );
+            List<string> DoneList = new List<string>();
+            DoneList.Add("Read scriptures");
+            DoneList.Add("Serve a calling");
+            DoneList.Add("Attend church");
+            DoneList.Add("Work hard");
+            DoneList.Add("Quit every thing ");
+            for I in
 
-            string done = Console.ReadLine());
+            string Done = Console.ReadLine());
             bool 5 = false;
             while (number !5)
             {   
