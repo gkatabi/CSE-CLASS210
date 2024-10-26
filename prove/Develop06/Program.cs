@@ -71,10 +71,12 @@ namespace Documents_GitHub
             DoneList.Add("Attend church");
             DoneList.Add("Work hard");
             DoneList.Add("Quit every thing ");
-            foreach (var done in DoneList)
-            Console.WriteLine("Done"):
+            foreach (var DoneValue in Enum.GetValues<DoneEnum>())
+{
+  obj.DoneType = (DoneEnum)DoneValue;
+  {
 
-            string Done = Console.ReadLine());
+  }
             bool 5 = false;
             while (number !5)
             {   
