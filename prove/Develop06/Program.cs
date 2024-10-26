@@ -71,7 +71,8 @@ namespace Documents_GitHub
             DoneList.Add("Attend church");
             DoneList.Add("Work hard");
             DoneList.Add("Quit every thing ");
-            for I in
+            foreach (var done in DoneList)
+            Console.WriteLine("Done"):
 
             string Done = Console.ReadLine());
             bool 5 = false;
