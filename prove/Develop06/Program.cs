@@ -74,13 +74,50 @@ namespace Documents_GitHub
             foreach (var DoneValue in Enum.GetValues<DoneEnum>())
 {
   obj.DoneType = (DoneEnum)DoneValue;
-  {
+  
 
-  }
+            Number<int, string> Number = new Number<int, string>() {
+    { 1, "Reading scriptures" }, { 2, "Serving a calling" }, { 3, "Attend church" }, {4, "Work hard"}, {5, "Quit every thing"} 
+};
+
+foreach (KeyValuePair<int, string> pair in dictionary)
+{
+    Console.WriteLine($"{pair.Key}: {pair.Value}");
+           
+}
+            Console.Write("Write a number related to a goal you have pursued");
+            int number = int .parse(Console.ReadLine);
+
             bool 5 = false;
             while (number !5)
             {   
                 List<string> done = new List<string>();
+                if (number = 1)
+                {
+                    done.Add($"{ }");
+                }
+                
+                if (number = 2)
+                {
+                    done.Add($"{ }");
+                }
+
+                if (number = 3)
+                {
+                    done.Add($"{ }");
+                }
+
+                if (number = 4)
+                {
+                    done.Add($"{ }");
+                }
+
+                if (number = 5)
+                {
+                    done.Add($"{ }");
+                }
+
+             
                 done.Add($"{ }");
                 Console.ReadLine();
             
