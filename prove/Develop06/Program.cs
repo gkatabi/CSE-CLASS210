@@ -118,8 +118,8 @@ foreach (KeyValuePair<int, string> pair in dictionary)
                 }
 
              
-                done.Add($"{ }");
-                Console.ReadLine();
+                
+                Console.WriteLine(Done);
             
 
             
